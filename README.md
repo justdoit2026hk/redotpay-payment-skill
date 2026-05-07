@@ -17,7 +17,7 @@ codex exec "Read https://raw.githubusercontent.com/redotpay/redotpay-payment-ski
 Non-interactive one-shot (see [CLI reference](https://code.claude.com/docs/en/cli-reference)):
 
 ```bash
-claude -p "Read https://raw.githubusercontent.com/redotpay/redotpay-payment-skill/main/skills/redotpay-payment/SKILL.md and install to ~/.claude/skills/redotpay-payment/SKILL.md (or .claude/skills/redotpay-payment/SKILL.md in this repo)."
+claude -p "Read https://raw.githubusercontent.com/redotpay/redotpay-payment-skill/main/skills/redotpay-payment/SKILL.md and install to ~/.claude/skills/redotpay-payment/SKILL.md."
 ```
 
 For stricter tool control in automation, add flags such as `--allowedTools`, `--max-turns`, or `--max-budget-usd` per your [headless / production docs](https://code.claude.com/docs/en/headless).
